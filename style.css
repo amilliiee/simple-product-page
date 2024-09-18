@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #121826;
+  background-color: #F9FAFB;
+  letter-spacing: -0.2px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+  margin: 36px;
+}
+
+.shoes {
+  width: 472px;
+  height: 646px;
+}
+.shoes img {
+  border-radius: 4px;
+  width: 100wv;
+}
+
+.info {
+  max-width: 684px;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb {
+  margin-top: -8px;
+}
+.breadcrumb ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 4px;
+  content: "-";
+  color: #9DA3AE;
+}
+.breadcrumb a {
+  color: #121826;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.breadcrumb span {
+  color: #9DA3AE;
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  max-width: 405px;
+  margin-bottom: 24px;
+}
+
+p {
+  line-height: 150%;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+#shoe-info {
+  margin-bottom: 40px;
+}
+
+#highlights {
+  line-height: 200%;
+  margin-left: 24px;
+  margin-bottom: 40px;
+}
+
+.purchase-info {
+  max-width: 377px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  border: 1px solid #F3F4F6;
+  background-color: #F3F4F6;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-bottom: 40px;
+}
+.purchase-info h6 {
+  line-height: 150%;
+  font-weight: 600;
+  color: #9DA3AE;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+.purchase-info p {
+  font-weight: 600;
+  color: #121826;
+  line-height: 150%;
+}
+.purchase-info h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #121826;
+  line-height: 150%;
+}
+
+.buttons {
+  display: inline-flex;
+  gap: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#btn1 {
+  width: 144px;
+  height: 40px;
+  background-color: #845EEE;
+  border: 1px solid #845EEE;
+  border-radius: 4px;
+  color: #F9FAFB;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+#btn2 {
+  width: 193px;
+  height: 40px;
+  border: 1px solid #D2D5DA;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn2 svg {
+  margin-right: 6px;
+}
+#btn2 p {
+  color: #121826;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+@media (max-width: 906px) {
+  .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .info {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
